@@ -1,18 +1,18 @@
-![](https://telegra.ph/file/b7377dbb15379573b68dd.jpg)
+![](https://telegra.ph/file/5475143864e770e63ca4c.jpg)
 
 <h4 align="center">
-     BASE REPO YUKKI MUSIC BOT SAYA HANYA CLONING, MERUBAH / ATAU MENAMBAH BAHASA INDONESIA SUNDA, JAWA.
+     REPO INI ADALAH REPO HASIL CLONING DARI YUKKI
 </h4>
 
 
     
-# ZETSU-MUSIC
+# ᴰⁱᵗᵗᴹᵘˢⁱᵏ
 
 <details>
 <summary><b>🚀 CONFIG VARS </b></summary>
 <br>
 
-- [klik disini](https://github.com/damsyx/zetsumusic/blob/master/config/README.md) Untuk Melihat semua vars yang tersedia
+- [klik disini](https://github.com/therowsee/DitMusik/blob/master/config/README.md) Untuk Melihat semua vars yang tersedia
 </details>
 
 
@@ -22,7 +22,7 @@
 
 ### ʜᴇʀᴏᴋᴜ   
 - klik tombol dibawah untuk deploy via Heroku :
-<p><a href="https://dashboard.heroku.com/new?template=https://github.com/damsyx/zetsumusic/tree/master"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="150""/></a></p>  
+<p><a href="https://dashboard.heroku.com/new?template=https://github.com/therowsee/DitMusik/tree/Master"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="150""/></a></p>  
 
 ### ᴠᴘs
 - Upgrade & Update :
@@ -34,7 +34,7 @@
 - Install Node
 `curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - kloning repository
-`git clone https://github.com/damsyx/zetsumusic &&  cd zetsumusic`
+`git clone https://github.com/therowsee/DitMusik &&  cd DitMusik`
 - install requirements
 `pip3 install -U -r requirements.txt`
 - mengganti nama sample.env dengan .env
@@ -52,10 +52,10 @@
 - Fork Repository ini 
 - Klik [OKTETO](https://www.okteto.com)
 - Masukan Var dan data mu, untuk melihat var apa saja yang ada silahkan klik dibawah
-- [List Variable](https://github.com/damsyx/zetsumusic/blob/master/config/README.md)
+- [List Variable](https://github.com/therowsee/DitMusik/blob/master/config/README.md)
 
 ### ʟɪsᴛ ᴘᴇʀɪɴᴛᴀʜ
-- Klik [disini](https://github.com/damsyx/zetsumusic/blob/master/strings/command.yml) untuk melihat semua perintah pada bot music
+- Klik [disini](https://github.com/therowsee/DitMusik/blob/master/strings/command.yml) untuk melihat semua perintah pada bot music
 
 </details>
 
@@ -63,9 +63,9 @@
 <summary><b>🚀 CONTACT & SPECIAL THANKS</b></summary>
 
 ## ᴄᴏɴᴛᴀᴄᴛ
-- [ᴄʜᴀɴɴᴇʟ](https://t.me/diarydam)
-- [ɢʀᴏᴜᴘ](https://t.me/damprivateroom)
-- [ᴏᴡɴᴇʀ](https://t.me/xflsdam)
+- [ᴄʜᴀɴɴᴇʟ](https://t.me/DellTrans)
+- [ɢʀᴏᴜᴘ](https://t.me/DitxyzSupport)
+- [ᴏᴡɴᴇʀ](https://t.me/Iiiiiiiiiiiiiiiiiiiiiiiz)
 
 ## sᴘᴇᴄɪᴀʟ ᴛʜᴀɴᴋs
 
