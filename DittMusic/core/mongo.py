@@ -23,7 +23,7 @@ if config.MONGO_DB_URI is None:
         "Tidak ada URL DB MONGO yang ditemukan.. Bot Anda akan berfungsi di Database Yukki"
     )
     temp_client = Client(
-        "Yukki",
+        "Ditt",
         bot_token=config.BOT_TOKEN,
         api_id=config.API_ID,
         api_hash=config.API_HASH,
@@ -39,5 +39,5 @@ if config.MONGO_DB_URI is None:
 else:
     _mongo_async_ = _mongo_client_(config.MONGO_DB_URI)
     _mongo_sync_ = MongoClient(config.MONGO_DB_URI)
-    mongodb = _mongo_async_.Yukki
-    pymongodb = _mongo_sync_.Yukki
+    mongodb = _mongo_async_.Ditt
+    pymongodb = _mongo_sync_.Ditt
