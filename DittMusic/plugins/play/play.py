@@ -19,21 +19,21 @@ from pytgcalls.exceptions import NoActiveGroupCall
 import config
 from config import BANNED_USERS, lyrical
 from strings import get_command
-from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram,
+from DittMusic import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.utils import seconds_to_min, time_to_seconds
-from YukkiMusic.utils.channelplay import get_channeplayCB
-from YukkiMusic.utils.database import is_video_allowed
-from YukkiMusic.utils.decorators.language import languageCB
-from YukkiMusic.utils.decorators.play import PlayWrapper
-from YukkiMusic.utils.formatters import formats
-from YukkiMusic.utils.inline.play import (livestream_markup,
+from DittMusic.core.call import Ditt
+from DittMusic.utils import seconds_to_min, time_to_seconds
+from DittMusic.utils.channelplay import get_channeplayCB
+from DittMusic.utils.database import is_video_allowed
+from DittMusic.utils.decorators.language import languageCB
+from DittMusic.utils.decorators.play import PlayWrapper
+from DittMusic.utils.formatters import formats
+from DittMusic.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from YukkiMusic.utils.inline.playlist import botplaylist_markup
-from YukkiMusic.utils.logger import play_logs
-from YukkiMusic.utils.stream.stream import stream
+from DittMusic.utils.inline.playlist import botplaylist_markup
+from DittMusic.utils.logger import play_logs
+from DittMusic.utils.stream.stream import stream
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
