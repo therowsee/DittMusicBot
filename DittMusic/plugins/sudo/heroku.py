@@ -24,13 +24,13 @@ from pyrogram import filters
 
 import config
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import HAPP, SUDOERS, XCB
-from YukkiMusic.utils.database import (get_active_chats,
+from DittMusic import app
+from DittMusic.misc import HAPP, SUDOERS, XCB
+from DittMusic.utils.database import (get_active_chats,
                                        remove_active_chat,
                                        remove_active_video_chat)
-from YukkiMusic.utils.decorators.language import language
-from YukkiMusic.utils.pastebin import Yukkibin
+from DittMusic.utils.decorators.language import language
+from DittMusic.utils.pastebin import Dittbin
 
 # Commands
 GETLOG_COMMAND = get_command("GETLOG_COMMAND")
@@ -265,7 +265,7 @@ async def update_(client, message, _):
     _update_response_ = "<b>A new update is available for the Bot!</b>\n\n➣ Pushing Updates Now</code>\n\n**<u>Updates:</u>**\n\n"
     _final_updates_ = _update_response_ + updates
     if len(_final_updates_) > 4096:
-        url = await Yukkibin(updates)
+        url = await Dittbin(updates)
         nrs = await response.edit(
             f"<b>Pembaruan baru tersedia untuk Bot!\n\n➣ Mendorong Pembaruan Sekarang\n\nPembaruan:\n\n[Klik Di Sini untuk memeriksa Pembaruan]({url})"
         )
